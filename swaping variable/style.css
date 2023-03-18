@@ -1,0 +1,27 @@
+body{
+    font-family: sans-serif;
+
+}
+
+h1,h3{
+    font-family: sans-serif;
+    color: black;
+}
+
+table{
+    font-size: 18px;
+}
+
+th{
+    width: 20%;
+}
+
+th,td{
+    padding: 10px;
+    border: 2px solid #696969;
+    text-align: center;
+}
+
+#freeSquare{
+    background-color: coral;
+}
