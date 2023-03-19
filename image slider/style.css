@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+
+
+.slider-container{
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+}
