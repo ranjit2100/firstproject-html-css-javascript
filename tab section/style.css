@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #FDEBF7;
+    color: gray;
+}
+
+img{
+    display: block;
+    width: 100%;
+    border-radius:8px;
+    object-fit: cover;
+}
+
+.section-center{
+    width: 90%;
+    height: 100vh;
+    margin: 0 auto;
+    max-width: 1170px;
+    min-width: 340px;
+    padding: 80px 0;
+}
