@@ -30,3 +30,71 @@ text color - #343a40
     margin: 100px auto;
 
   }
+
+  .accordian{
+    width: 500px;
+    height: 2000px;
+    margin:100px auto;
+    color: #087f5b;
+    vertical-align: middle;
+
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+  
+  }
+
+  .number, .text{
+    font-size: larger;
+    font-weight: 700;
+
+  }
+
+  .item{
+    color: #087f5b;
+    padding: 24px;
+    box-shadow: 0 0 32px rgba(0, 0, 0, 0.1);
+
+   display: grid;
+   grid-template-columns: auto 1fr auto;
+   column-gap: 24px;
+   row-gap: 32px;
+   align-items: center;
+
+   
+   border-top: 5px solid #087f5b;
+   background-color:rgb(255, 255, 255);
+   
+  }
+
+  .number{
+    color: #087f5b;
+    padding: 5px;
+  }
+
+  .text{
+    color: #087f5b;
+  }
+
+  .icon{
+    width: 24px;
+    height: 24px;
+    padding: 5px;
+  
+  }
+
+  .hidden-box{
+    grid-column:2;
+  }
+
+  .hidden-box p{
+    padding-bottom: 16px;
+  }
+
+  .hidden-box ul{
+    margin-left: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
